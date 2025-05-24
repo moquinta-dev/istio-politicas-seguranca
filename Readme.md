@@ -1,6 +1,16 @@
-# 🧪 Laboratório: Canary Deployment com Istio no Minikube + Kiali
+# 🛡️ Laboratório Istio - AuthorizationPolicy no Minikube
 
-Este laboratório demonstra como configurar um ambiente local com **Minikube**, **Istio** e **Kiali**, aplicando uma estratégia de **Canary Release** com duas versões de uma aplicação.  
+Este laboratório tem como objetivo ensinar na prática como utilizar o recurso **AuthorizationPolicy** do **Istio**, controlando o acesso entre serviços em uma malha de serviços. Vamos usar o **Minikube** para criar um ambiente local.
+
+---
+
+## 🎯 Objetivo
+
+- Demonstrar como usar o recurso **AuthorizationPolicy** para:
+  - **Negar todo acesso por padrão**
+  - **Permitir acesso apenas a serviços específicos**
+- Visualizar as políticas usando o **Kiali**
+- Realizar uma enquete baseada em um caso de uso real
 
 ---
 
